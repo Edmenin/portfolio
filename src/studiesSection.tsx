@@ -1,4 +1,4 @@
-
+import image3 from "./assets/image3.svg";
 
 function StudiesSection() {
   return (
@@ -18,11 +18,7 @@ function StudiesSection() {
         </p>
       </div>
       <div className="flex justify-center items-center w-1/2 pl-[100px]">
-        <img
-          src="src/assets/images/image3.svg"
-          alt=""
-          className="w-[500px] h-[500px]"
-        />
+        <img src={image3} alt="imagem 3" className="w-[500px] h-[500px]" />
       </div>
       <div className="absolute bottom-0 left-0 w-full h-[3px] bg-[#EBFFE7]"></div>
       <div className="absolute top-[-90px] left-[-170px] w-[250px] h-[210px] rotate-[34deg] bg-[#EBFFE7]"></div>

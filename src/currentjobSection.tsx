@@ -1,14 +1,10 @@
-
+import image2 from "./assets/image2.svg";
 
 function CurrentJobSection() {
   return (
     <div className="relative flex items-center justify-between py-[110px] bg-[#232323] text-[#EBFFE7] px-[160px]">
       <div className="flex justify-center items-center w-1/2 pr-[100px]">
-        <img
-          src="src/assets/images/image2.svg"
-          alt=""
-          className="w-[500px] h-[500px]"
-        />
+        <img src={image2} alt="imagem 2" className="w-[500px] h-[500px]" />
       </div>
       <div className="flex flex-col items-start w-1/2">
         <h1 className="text-4xl font-semibold mb-[100px]">Atual emprego</h1>

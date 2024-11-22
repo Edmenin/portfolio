@@ -1,4 +1,4 @@
-
+import Eduardo from "./assets/eduardomenin.svg";
 
 function AboutmeSection() {
   return (
@@ -17,7 +17,7 @@ function AboutmeSection() {
       </div>
       <div className="flex justify-center items-center w-1/2 pl-[100px]">
         <img
-          src="src/assets/images/eduardomenin.svg"
+          src={Eduardo}
           alt="Eduardo Menin"
           className="w-[500px] h-[500px]"
         />

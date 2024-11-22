@@ -1,15 +1,15 @@
 import React from "react";
 import WelcomeSection from "./welcomeSection";
-import AboutMeSection from "./components/aboutmeSection";
-import LanguagesSection from "./components/languagesSection";
-import CurrentJobSection from "./components/currentjobSection";
-import StudiesSection from "./components/studiesSection";
-import ProjectsSection from "./components/projectsSection";
-import FooterSection from "./components/footerSection";
+import AboutMeSection from "./aboutmeSection";
+import LanguagesSection from "./languagesSection";
+import CurrentJobSection from "./currentjobSection";
+import StudiesSection from "./studiesSection";
+import ProjectsSection from "./projectsSection";
+import FooterSection from "./footerSection";
 
 function Page() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <WelcomeSection />
       <AboutMeSection />
       <LanguagesSection />

@@ -1,4 +1,6 @@
-
+import gitHubLogo from "./assets/githublogo.svg";
+import linkedInLogo from "./assets/linkedinlogo.svg";
+import instagramLogo from "./assets/instagramlogo.svg";
 
 function ProjectsSection() {
   return (
@@ -10,7 +12,7 @@ function ProjectsSection() {
           rel="noopener noreferrer"
         >
           <img
-            src="src/assets/images/githublogo.svg"
+            src={gitHubLogo}
             alt="GitHub Logo"
             className="w-[100px] h-[100px] transform hover:scale-110 transition-transform duration-200"
           />
@@ -21,7 +23,7 @@ function ProjectsSection() {
           rel="noopener noreferrer"
         >
           <img
-            src="src/assets/images/linkedinlogo.svg"
+            src={linkedInLogo}
             alt="LinkedIn Logo"
             className="w-[100px] h-[100px] transform hover:scale-110 transition-transform duration-200"
           />
@@ -32,7 +34,7 @@ function ProjectsSection() {
           rel="noopener noreferrer"
         >
           <img
-            src="src/assets/images/instagramlogo.svg"
+            src={instagramLogo}
             alt="Instagram Logo"
             className="w-[100px] h-[100px] transform hover:scale-110 transition-transform duration-200"
           />
