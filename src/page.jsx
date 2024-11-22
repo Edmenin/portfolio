@@ -1,5 +1,5 @@
 import React from "react";
-import WelcomeSection from "./components/welcomeSection";
+import WelcomeSection from "./welcomeSection";
 import AboutMeSection from "./components/aboutmeSection";
 import LanguagesSection from "./components/languagesSection";
 import CurrentJobSection from "./components/currentjobSection";
