@@ -1,4 +1,4 @@
-
+import gitHubLogo from './assets/githublogo.svg'
 
 function WelcomeSection() {
   return (
@@ -15,8 +15,7 @@ function WelcomeSection() {
             rel="noopener noreferrer"
           >
             <img
-              src="src/assets/githublogo.svg"
-              alt="GitHub Logo"
+              src={gitHubLogo} alt="GitHub Logo"
               className="w-[100px] h-[100px] transform hover:scale-110 transition-transform duration-200"
             />
           </a>
