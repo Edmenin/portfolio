@@ -15,7 +15,7 @@ function WelcomeSection() {
             rel="noopener noreferrer"
           >
             <img
-              src="dist/assets/githublogo.svg"
+              src="src/assets/githublogo.svg"
               alt="GitHub Logo"
               className="w-[100px] h-[100px] transform hover:scale-110 transition-transform duration-200"
             />
