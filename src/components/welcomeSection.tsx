@@ -37,7 +37,7 @@ function WelcomeSection() {
         {" "}
         <div className="mb-[-17px] relative z-10">
           <img
-            src="dist/assets/image1.svg"
+            src="./assets/image1.svg"
             alt="Image 1"
             className="w-[600px] h-[600px]"
           />
