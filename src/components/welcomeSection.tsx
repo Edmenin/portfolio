@@ -15,7 +15,7 @@ function WelcomeSection() {
             rel="noopener noreferrer"
           >
             <img
-              src="src/assets/images/githublogo.svg"
+              src="dist/assets/githublogo.svg"
               alt="GitHub Logo"
               className="w-[100px] h-[100px] transform hover:scale-110 transition-transform duration-200"
             />
@@ -26,7 +26,7 @@ function WelcomeSection() {
             rel="noopener noreferrer"
           >
             <img
-              src="src/assets/images/linkedinlogo.svg"
+              src="dist/assets/linkedinlogo.svg"
               alt="LinkedIn Logo"
               className="w-[100px] h-[100px] transform hover:scale-110 transition-transform duration-200"
             />
@@ -37,7 +37,7 @@ function WelcomeSection() {
         {" "}
         <div className="mb-[-17px] relative z-10">
           <img
-            src="src/assets/images/image1.svg"
+            src="dist/assets/image1.svg"
             alt="Image 1"
             className="w-[600px] h-[600px]"
           />
