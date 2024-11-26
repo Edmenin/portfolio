@@ -41,7 +41,7 @@ function ProjectsSection() {
         </a>
       </div>
       <h1 className="text-sm font-medium">
-        @ Todos os direitos reservados a Eduardo Menin - 2024.
+        © Todos os direitos reservados à Eduardo Menin - 2024.
       </h1>
       <div className="absolute bottom-0 left-0 w-full h-[3px] bg-[#232323]"></div>
     </div>
