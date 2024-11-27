@@ -42,12 +42,12 @@ function WelcomeSection() {
           <img
             src={image1}
             alt="image1"
-            className="w-[300px] h-[300px] md:w-[500px] md:h-[500px] lg:w-[600px] lg:h-[600px]"
+            className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] lg:w-[600px] lg:h-[600px]"
           />
         </div>
       </div>
       <div className="absolute bottom-[-90px] right-[-200px] md:right-[0px] lg:right-[-680px] lg:bottom-[-20px] xl:right-[-600px] 2xl:right-[-440px]">
-        <div className="w-[1200px] h-[450px] md:h-[600px] lg:w-[1250px] lg:h-[1200px] bg-[#232323] lg:rotate-[-60deg]"></div>
+        <div className=" w-[1200px] h-[350px] sm:h-[500px] md:h-[600px] lg:w-[1250px] lg:h-[1200px] bg-[#232323] lg:rotate-[-60deg]"></div>
       </div>
       <div className="absolute bottom-[-310px] right-[-200px] lg:bottom-[-610px] lg:right-[-436px]">
         <div className="w-[600px] h-[600px] lg:w-[1250px] lg:h-[1200px] bg-[#ffffff] opacity-[5%] rotate-[-25deg]"></div>
