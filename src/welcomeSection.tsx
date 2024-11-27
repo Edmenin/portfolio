@@ -7,10 +7,10 @@ function WelcomeSection() {
     <div className="relative flex flex-col lg:flex-row items-center justify-between h-screen bg-[#EBFFE7] text-[#232323] px-6 lg:px-20 xl:px-[200px]">
       <div className="flex flex-col items-center lg:items-start text-center lg:text-left mt-[60px] md:mt-[50px]">
         <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold mb-6 animate-pulse">
-          Hi there!
+          Olá!
         </h1>
         <p className="text-xl md:text-2xl lg:text-3xl font-semibold mb-12 lg:mb-[300px] animate-pulse">
-          I'm Eduardo, a web developer.
+          Eu sou Eduardo Menin.
         </p>
         <div className="flex space-x-4 lg:space-x-6">
           <a

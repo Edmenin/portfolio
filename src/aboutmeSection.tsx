@@ -12,7 +12,7 @@ function AboutmeSection() {
         viewport={{ once: true, amount: 0.5 }}
       >
         <h1 className="text-xl md:text-3xl xl:text-3xl font-semibold mb-8 lg:mb-[100px] text-center lg:text-left">
-          Olá, seja bem-vindo ao meu portfólio! 🚀
+          Seja bem-vindo ao meu portfólio! 🚀
         </h1>
         <p className="text-base md:text-lg lg:text-xl xl:text-2xl font-normal text-justify">
           Sou Eduardo, um desenvolvedor apaixonado por tecnologia, com foco em
