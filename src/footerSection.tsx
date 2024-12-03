@@ -1,8 +1,11 @@
 import gitHubLogo from "./assets/githublogo.svg";
 import linkedInLogo from "./assets/linkedinlogo.svg";
 import instagramLogo from "./assets/instagramlogo.svg";
+import { useTranslation } from "react-i18next";
 
 function ProjectsSection() {
+  const { t } = useTranslation();
+
   return (
     <div className="relative flex flex-col items-center justify-center py-6 md:py-10 lg:py-12 bg-[#EBFFE7] text-[#232323] space-y-6 md:space-y-8">
       <div className="flex space-x-4 md:space-x-6 lg:space-x-8 flex-wrap justify-center">
@@ -41,7 +44,7 @@ function ProjectsSection() {
         </a>
       </div>
       <h1 className="text-xs md:text-sm lg:text-base font-medium text-center px-4">
-        © Todos os direitos reservados à Eduardo Menin - 2024.
+        {t("footerRights")}
       </h1>
       <div className="absolute bottom-0 left-0 w-full h-[2px] md:h-[3px] bg-[#232323]"></div>
     </div>

@@ -1,7 +1,10 @@
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 import Eduardo from "./assets/eduardomenin.svg";
 
 function AboutmeSection() {
+  const { t } = useTranslation();
+
   return (
     <div className="relative flex flex-col lg:flex-row items-center justify-between py-10 lg:py-[110px] bg-[#232323] text-[#EBFFE7] px-6 md:px-10 lg:px-[120px]">
       <motion.div
@@ -11,15 +14,11 @@ function AboutmeSection() {
         transition={{ duration: 0.8 }}
         viewport={{ once: true, amount: 0.5 }}
       >
-        <h1 className="text-xl md:text-3xl xl:text-3xl font-semibold mb-8 lg:mb-[100px] text-center lg:text-left">
-          Seja bem-vindo ao meu portfólio! 🚀
+        <h1 className="text-xl md:text-3xl xl:text-3xl font-semibold mb-8 :mb-[100px] text-center lg:text-left xl:pl-[70px]">
+          {t("welcomePortfolio")}
         </h1>
-        <p className="text-base md:text-lg lg:text-xl xl:text-2xl font-normal text-justify">
-          Sou Eduardo, um desenvolvedor apaixonado por tecnologia, com foco em
-          criar soluções inovadoras e eficientes. Meu trabalho combina
-          criatividade e lógica para entregar interfaces elegantes e sistemas
-          robustos. Tenho maior experiência no desenvolvimento front-end, mas
-          estou sempre disposto a aprender novas práticas e tecnologias!
+        <p className="text-base md:text-lg lg:text-xl xl:text-2xl font-normal text-justify xl:pl-[70px]">
+          {t("aboutMeParagraph")}
         </p>
       </motion.div>
       <motion.div

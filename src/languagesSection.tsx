@@ -7,8 +7,11 @@ import REACT from "./assets/reactlogo.svg";
 import FIGMA from "./assets/figmalogo.svg";
 import NEXT from "./assets/nextlogo.svg";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 function LanguagensSection() {
+  const { t } = useTranslation();
+
   return (
     <div className="relative flex flex-col items-center justify-center py-10 md:py-[110px] bg-[#232323] text-[#EBFFE7] space-y-8 md:space-y-12">
       <motion.div
@@ -19,7 +22,7 @@ function LanguagensSection() {
         viewport={{ once: true, amount: 0.5 }}
       >
         <h1 className="text-xl md:text-3xl lg:text-4xl font-semibold text-center mb-4 md:mb-8">
-          Linguagens e tecnologias
+          {t("technologiesTitle")}
         </h1>
       </motion.div>
       <motion.div
@@ -37,7 +40,6 @@ function LanguagensSection() {
           />
         </a>
         <a href="https://www.typescriptlang.org">
-          {" "}
           <img
             src={TS}
             alt="TypeScript Logo"
@@ -45,7 +47,6 @@ function LanguagensSection() {
           />
         </a>
         <a href="https://www.w3schools.com/css/">
-          {" "}
           <img
             src={CSS}
             alt="CSS Logo"
@@ -53,7 +54,6 @@ function LanguagensSection() {
           />
         </a>
         <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">
-          {" "}
           <img
             src={HTML}
             alt="HTML Logo"
@@ -90,7 +90,6 @@ function LanguagensSection() {
           />
         </a>
         <a href="https://nextjs.org">
-          {" "}
           <img
             src={NEXT}
             alt="Next.js Logo"
@@ -99,7 +98,7 @@ function LanguagensSection() {
         </a>
       </motion.div>
       <div className="absolute bottom-0 left-0 w-full h-[3px] bg-[#EBFFE7]"></div>
-      <div className="absolute top-[-108px] left-[-170px] md:top-[-137px] lg:top-[-137px] md:left-[-170px] w-[210px] h-[180px] md:w-[250px] md:h-[210px] rotate-[34deg] bg-[#EBFFE7]"></div>
+      <div className="absolute top-[-108px] left-[-190px] md:top-[-137px] lg:top-[-137px] md:left-[-170px] w-[210px] h-[180px] md:w-[250px] md:h-[210px] rotate-[34deg] bg-[#EBFFE7]"></div>
     </div>
   );
 }
