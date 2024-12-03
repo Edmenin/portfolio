@@ -67,7 +67,7 @@ function WelcomeSection() {
       <motion.img
         src={seta}
         alt="seta"
-        className="w-12 h-12 absolute bottom-[80px] left-0 right-0 mx-auto z-20"
+        className="w-12 h-12 absolute bottom-[80px] left-0 right-0 mx-auto z-20 hidden lg:block"
         animate={{ y: [0, 6, 0] }}
         transition={{ repeat: Infinity, duration: 0.8 }}
       />
