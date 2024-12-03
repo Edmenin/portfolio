@@ -2,7 +2,7 @@ import JS from "./assets/jslogo.svg";
 import TS from "./assets/tslogo.svg";
 import CSS from "./assets/csslogo.svg";
 import HTML from "./assets/htmllogo.svg";
-import VSCODE from "./assets/vscodelogo.svg";
+import GIT from "./assets/gitlogo.svg";
 import REACT from "./assets/reactlogo.svg";
 import FIGMA from "./assets/figmalogo.svg";
 import NEXT from "./assets/nextlogo.svg";
@@ -29,26 +29,37 @@ function LanguagensSection() {
         transition={{ duration: 0.8, delay: 0.3 }}
         viewport={{ once: true, amount: 0.5 }}
       >
-        <img
-          src={JS}
-          alt="JavaScript Logo"
-          className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[100px] lg:h-[100px]"
-        />
-        <img
-          src={TS}
-          alt="TypeScript Logo"
-          className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[100px] lg:h-[100px]"
-        />
-        <img
-          src={CSS}
-          alt="CSS Logo"
-          className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[100px] lg:h-[100px]"
-        />
-        <img
-          src={HTML}
-          alt="HTML Logo"
-          className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[100px] lg:h-[100px]"
-        />
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">
+          <img
+            src={JS}
+            alt="JavaScript Logo"
+            className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[100px] lg:h-[100px] hover:scale-110 transition-transform duration-200"
+          />
+        </a>
+        <a href="https://www.typescriptlang.org">
+          {" "}
+          <img
+            src={TS}
+            alt="TypeScript Logo"
+            className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[100px] lg:h-[100px] hover:scale-110 transition-transform duration-200"
+          />
+        </a>
+        <a href="https://www.w3schools.com/css/">
+          {" "}
+          <img
+            src={CSS}
+            alt="CSS Logo"
+            className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[100px] lg:h-[100px] hover:scale-110 transition-transform duration-200"
+          />
+        </a>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML">
+          {" "}
+          <img
+            src={HTML}
+            alt="HTML Logo"
+            className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[100px] lg:h-[100px] hover:scale-110 transition-transform duration-200"
+          />
+        </a>
       </motion.div>
       <motion.div
         className="flex flex-wrap justify-center gap-4 md:gap-8"
@@ -57,26 +68,35 @@ function LanguagensSection() {
         transition={{ duration: 0.8, delay: 0.6 }}
         viewport={{ once: true, amount: 0.5 }}
       >
-        <img
-          src={REACT}
-          alt="React Logo"
-          className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[100px] lg:h-[100px]"
-        />
-        <img
-          src={VSCODE}
-          alt="Visual Studio Code Logo"
-          className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[100px] lg:h-[100px]"
-        />
-        <img
-          src={FIGMA}
-          alt="Figma Logo"
-          className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[100px] lg:h-[100px]"
-        />
-        <img
-          src={NEXT}
-          alt="Next.js Logo"
-          className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[100px] lg:h-[100px]"
-        />
+        <a href="https://react.dev">
+          <img
+            src={REACT}
+            alt="React Logo"
+            className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[100px] lg:h-[100px] hover:scale-110 transition-transform duration-200"
+          />
+        </a>
+        <a href="https://git-scm.com/doc">
+          <img
+            src={GIT}
+            alt="GIT Logo"
+            className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[100px] lg:h-[100px] hover:scale-110 transition-transform duration-200"
+          />
+        </a>
+        <a href="https://help.figma.com/hc/pt-br">
+          <img
+            src={FIGMA}
+            alt="Figma Logo"
+            className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[100px] lg:h-[100px] hover:scale-110 transition-transform duration-200"
+          />
+        </a>
+        <a href="https://nextjs.org">
+          {" "}
+          <img
+            src={NEXT}
+            alt="Next.js Logo"
+            className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] lg:w-[100px] lg:h-[100px] hover:scale-110 transition-transform duration-200"
+          />
+        </a>
       </motion.div>
       <div className="absolute bottom-0 left-0 w-full h-[3px] bg-[#EBFFE7]"></div>
       <div className="absolute top-[-108px] left-[-170px] md:top-[-137px] lg:top-[-137px] md:left-[-170px] w-[210px] h-[180px] md:w-[250px] md:h-[210px] rotate-[34deg] bg-[#EBFFE7]"></div>
