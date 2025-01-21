@@ -13,7 +13,7 @@ const resources = {
       technologiesTitle: "Languages and Technologies",
       currentJobTitle: "Current Job",
       currentJobDescription:
-        "I am currently a developer and web designer at the Secretariat of Science, Technology, and Innovation of Pato Branco - Paraná. My mission is to develop systems and platforms that optimize governmental processes and facilitate communication between the public authorities and the population. I am directly involved in projects that positively impact citizens' lives, promoting access to knowledge and technology.",
+        "Currently, I am a full-stack developer at CashLocal, a company focused on bringing money back to the consumer with each purchase at local businesses. But we don't limit ourselves to that. There's much more! My mission here is to develop systems and tools that help local commerce consumers.",
       studiesTitle: "Studies",
       studiesDescription:
         "At the age of 12, I began my journey in the technology field with my first computer course, starting with the basic module. After completing it, I moved on to the applied module. At 17, I attended a course on languages and technologies for front-end development offered by B7 Web. This course solidified my passion for programming and design. Currently, at 19, I am pursuing my first degree in Systems Analysis and Development at Unidep. For the future, I plan to expand my academic education with a second degree.",
@@ -32,7 +32,7 @@ const resources = {
       technologiesTitle: "Linguagens e tecnologias",
       currentJobTitle: "Atual emprego",
       currentJobDescription:
-        "Atualmente, sou desenvolvedor e web designer da Secretaria de Ciência, Tecnologia e Inovação de Pato Branco - Paraná. Aqui, minha missão é desenvolver sistemas e plataformas que otimizam os processos governamentais e facilitam a comunicação entre o poder público e a população. Estou diretamente envolvido em projetos que impactam positivamente a vida de cidadãos, promovendo o acesso ao conhecimento e à tecnologia.",
+        "Atualmente, sou desenvolvedor full-stack pela CashLocal, empresa focada em trazer dinheiro de volta para o consumidor a cada compra no comércio local. Mas não nos limitamos a isso. Tem muito mais! Minha missão aqui é desenvolver sistemas e ferramentas que auxiliam o consumidor do comércio local.",
       studiesTitle: "Estudos",
       studiesDescription:
         "Aos 12 anos, iniciei minha jornada na área de tecnologia com meu primeiro curso de informática, começando pelo módulo básico. Após a conclusão, avancei para o módulo aplicado. Aos 17 anos, participei de um curso de linguagens e tecnologias para desenvolvimento front-end, oferecido pela B7 Web. Esse curso consolidou minha paixão pela programação e pelo design. Atualmente, com 19 anos, estou cursando minha primeira graduação em Análise e Desenvolvimento de Sistemas, pela Unidep. Para o futuro, planejo ampliar minha formação acadêmica com uma segunda graduação.",

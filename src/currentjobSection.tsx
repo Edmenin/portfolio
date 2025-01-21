@@ -35,7 +35,7 @@ function CurrentJobSection() {
         />
       </motion.div>
       <div className="absolute bottom-0 left-0 w-full h-[3px] bg-[#EBFFE7]"></div>
-      <div className="absolute top-[-159px] right-[-185px] w-[200px] h-[190px] md:top-[-163px] md:right-[-170px] md:w-[250px] md:h-[210px] rotate-[34deg] bg-[#EBFFE7]"></div>
+      <div className="absolute top-[-159px] right-[-185px] w-[200px] h-[190px] md:top-[-124px] md:right-[-170px] md:w-[250px] md:h-[210px] rotate-[34deg] bg-[#EBFFE7]"></div>
     </div>
   );
 }

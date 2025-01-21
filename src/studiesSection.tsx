@@ -6,7 +6,7 @@ function StudiesSection() {
   const { t } = useTranslation();
 
   return (
-    <div className="relative flex flex-col lg:flex-row items-center justify-between py-10 md:py-[110px] bg-[#232323] text-[#EBFFE7] px-6 md:px-[80px] lg:px-[160px] space-y-10 lg:space-y-0">
+    <div className="relative flex flex-col lg:flex-row items-center justify-between py-10 md:py-[110px] bg-[#232323] text-[#EBFFE7] px-6 md:px-[80px] lg:px-[100px] space-y-10 lg:space-y-0">
       <motion.div
         className="flex flex-col items-center lg:items-start w-full lg:w-1/2"
         initial={{ opacity: 0, x: -100 }}

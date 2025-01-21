@@ -32,11 +32,11 @@ function WelcomeSection() {
           />
         </button>
       </div>
-      <div className="flex flex-col items-center lg:items-start text-center lg:text-left mt-[60px] md:mt-[50px]">
+      <div className="flex flex-col items-center lg:items-start text-center lg:text-left mt-[30px] md:mt-[50px]">
         <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold mb-6 animate-pulse">
           {t("greeting")}
         </h1>
-        <p className="text-xl md:text-2xl lg:text-3xl font-semibold mb-12 lg:mb-[300px] animate-pulse">
+        <p className="text-xl md:text-2xl lg:text-3xl font-semibold mb-12 lg:mb-[180px] animate-pulse">
           {t("introduction")}
         </p>
         <div className="flex space-x-4 lg:space-x-6">
@@ -67,7 +67,7 @@ function WelcomeSection() {
       <motion.img
         src={seta}
         alt="seta"
-        className="w-12 h-12 absolute bottom-[80px] left-0 right-0 mx-auto z-20 hidden lg:block"
+        className="w-12 h-12 absolute bottom-[50px] left-0 right-0 mx-auto z-20 hidden lg:block"
         animate={{ y: [0, 6, 0] }}
         transition={{ repeat: Infinity, duration: 0.8 }}
       />
@@ -81,7 +81,7 @@ function WelcomeSection() {
         </div>
       </div>
       <div className="absolute bottom-[-90px] right-[-200px] md:right-[0px] lg:right-[-680px] lg:bottom-[-20px] xl:right-[-600px] 2xl:right-[-440px]">
-        <div className=" w-[1200px] h-[350px] sm:h-[500px] md:h-[600px] lg:w-[1250px] lg:h-[1200px] bg-[#232323] lg:rotate-[-60deg]"></div>
+        <div className=" w-[1200px] h-[350px] sm:h-[500px] md:h-[600px] lg:w-[1300px] lg:h-[1080px] bg-[#232323] lg:rotate-[-60deg]"></div>
       </div>
       <div className="absolute bottom-[-310px] right-[-200px] lg:bottom-[-610px] lg:right-[-436px]">
         <div className="w-[600px] h-[600px] lg:w-[1250px] lg:h-[1200px] bg-[#ffffff] opacity-[5%] rotate-[-25deg]"></div>
