@@ -6,7 +6,7 @@ function AboutmeSection() {
   const { t } = useTranslation();
 
   return (
-    <div className="relative flex flex-col lg:flex-row items-center justify-between py-10 lg:py-[110px] bg-[#232323] text-[#EBFFE7] px-6 md:px-10 lg:px-[40px]">
+    <div className="relative flex flex-col lg:flex-row items-center justify-between py-10 lg:py-[110px] bg-[#181818] text-[#ffffff] px-6 md:px-10 lg:px-[130px]">
       <motion.div
         className="flex flex-col items-center lg:items-start w-full lg:w-1/2 px-[30px] xl:px-0"
         initial={{ opacity: 0, x: -100 }}
@@ -14,10 +14,10 @@ function AboutmeSection() {
         transition={{ duration: 0.8 }}
         viewport={{ once: true, amount: 0.5 }}
       >
-        <h1 className="text-xl md:text-3xl xl:text-3xl font-semibold mb-8 :mb-[100px] text-center lg:text-left xl:pl-[70px]">
+        <h1 className="text-xl md:text-2xl font-semibold mb-8 :mb-[100px] text-center lg:text-left xl:pl-[70px]">
           {t("welcomePortfolio")}
         </h1>
-        <p className="text-base md:text-lg lg:text-xl xl:text-2xl font-normal text-justify xl:pl-[70px]">
+        <p className="text-base md:text-lg lg:text-xl font-normal text-justify xl:pl-[70px]">
           {t("aboutMeParagraph")}
         </p>
       </motion.div>
@@ -31,10 +31,10 @@ function AboutmeSection() {
         <img
           src={Eduardo}
           alt="Eduardo Menin"
-          className="w-[250px] h-[250px] md:w-[350px] md:h-[350px] lg:w-[430px] lg:h-[430px] xl:w-[500px] xl:h-[500px] "
+          className="w-[250px] h-[250px] md:w-[300px] md:h-[300px]"
         />
       </motion.div>
-      <div className="absolute bottom-0 left-0 w-full h-[2px] lg:h-[3px] bg-[#EBFFE7]"></div>
+      <div className="absolute bottom-0 left-0 w-full h-[2px] lg:h-[3px] bg-[#4c248b]"></div>
     </div>
   );
 }
