@@ -11,7 +11,7 @@ const Card4 = () => {
         </div>
         <img
           className="card__image"
-          src="/src/assets/finances.svg"
+          src="src/assets/finances.svg"
           alt="Finances App"
         />
       </div>
