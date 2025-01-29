@@ -11,7 +11,7 @@ const Card3 = () => {
         </div>
         <img
           className="card__image"
-          src="src/assets/separa.svg"
+          src="./src/assets/separa.svg"
           alt="Separa"
         />
       </div>
