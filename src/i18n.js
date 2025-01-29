@@ -20,6 +20,18 @@ const resources = {
       projectsTitle: "My Projects 🚧",
       projectsDescription: "Under construction...",
       footerRights: "© All rights reserved to Eduardo Menin - 2024.",
+      card1title: "Citizenship Center",
+      card1description:
+        "The Citizenship Center is a project developed with the aim of offer support to residents of the city of Pato Branco, Paraná, inpartnership with social assistance. My role in the project involved the development of your official website.",
+      card2title: "Honey World",
+      card2description:
+        "Mundo Mel was an event held with the participation of beekeepers and meliponists in the city of Pato Branco, Paraná. My contribution to the project included website development event official.",
+      card3title: "Separate",
+      card3description:
+        "Separa appears as a solution to hunger and the growing issue of food waste. By correctly separating your waste, the user receives cashback as an incentive. My contribution to project was the development of the system interface.",
+      card4title: "Finances App",
+      card4description:
+        "The Finances App is a website developed by me, completely no-code. It is a complete system, which includes interface, backend and database, without the need to write code, for this, I used the FlutterFlow platform.",
     },
   },
   pt: {
@@ -39,6 +51,18 @@ const resources = {
       projectsTitle: "Meus projetos 🚧",
       projectsDescription: "em construção...",
       footerRights: "© Todos os direitos reservados à Eduardo Menin - 2024.",
+      card1title: "Centro da Cidadania",
+      card1description:
+        "O Centro da Cidadania é um projeto desenvolvido com o objetivo de oferecer apoio aos moradores da cidade de Pato Branco, Paraná, em parceria com a assistência social. Meu papel no projeto envolveu o desenvolvimento de seu site oficial.",
+      card2title: "Mundo Mel",
+      card2description:
+        "O Mundo Mel foi um evento realizado com a participação de apicultores e meliponicultores na cidade de Pato Branco, Paraná. Minha contribuição para o projeto incluiu o desenvolvimento do site oficial do evento.",
+      card3title: "Separa",
+      card3description:
+        "O Separa surge como uma solução para a fome e a crescente questão do desperdício de alimentos. Ao separar corretamente seu lixo, o usuário recebe cashback como incentivo. Minha contribuição no projeto foi o desenvolvimento da interface do sistema.",
+      card4title: "App de finanças",
+      card4description:
+        "O App de finanças é um site desenvolvido por mim, totalmente no-code. Trata-se de um sistema completo, que inclui interface, backend e banco de dados, sem a necessidade de escrever códigos, para isso, utilizei a plataforma FlutterFlow.",
     },
   },
 };

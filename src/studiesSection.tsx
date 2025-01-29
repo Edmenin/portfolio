@@ -35,7 +35,7 @@ function StudiesSection() {
         />
       </motion.div>
       <div className="absolute bottom-0 left-0 w-full h-[3px] bg-[#4c248b]"></div>
-      <div className="absolute top-[-115px] left-[-170px] w-[200px] h-[200px] md:top-[-130px] lg:top-[-75px] lg:left-[-130px] rotate-[34deg] bg-[#4c248b]"></div>
+      <div className="absolute top-[-75px] left-[-170px] w-[200px] h-[200px] md:top-[-130px] lg:top-[-75px] lg:left-[-130px] rotate-[34deg] bg-[#4c248b]"></div>
     </div>
   );
 }
