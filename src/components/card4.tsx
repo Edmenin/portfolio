@@ -9,11 +9,7 @@ const Card4 = () => {
           <p className="card__title">{t("card4title")}</p>
           <p className="card__description">{t("card4description")}</p>
         </div>
-        <img
-          className="card__image"
-          src="./assets/finances.svg"
-          alt="Finances App"
-        />
+        <div className="card__back"></div>
       </div>
     </StyledWrapper>
   );
@@ -25,47 +21,42 @@ const StyledWrapper = styled.div`
     width: 300px;
     height: 200px;
     border-radius: 10px;
+    perspective: 1000px;
+  }
+
+  .card__content,
+  .card__back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: transform 900ms ease-in-out;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    overflow: hidden;
-    transition: all 0.6s ease-in-out;
+    align-items: center;
   }
 
   .card__content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(0deg);
-    width: 100%;
-    height: 100%;
-    padding: 20px;
-    box-sizing: border-box;
     background: #4c248b;
-    opacity: 1;
-    transition: all 0.4s ease-in-out;
+    transform: rotateY(0deg);
   }
 
-  .card__image {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(1.2) rotate(45deg);
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0;
-    transition: all 0.8s ease-in-out;
+  .card__back {
+    background: url("./assets/finances.svg") center/cover no-repeat;
+    transform: rotateY(180deg);
+    border-radius: 10px;
   }
 
   .card:hover .card__content {
-    transform: translate(-50%, -50%) rotate(45deg);
-    opacity: 0;
+    transform: rotateY(180deg);
   }
 
-  .card:hover .card__image {
-    opacity: 1;
-    transform: translate(-50%, -50%) rotate(0deg);
+  .card:hover .card__back {
+    transform: rotateY(0deg);
   }
 
   .card__title {
