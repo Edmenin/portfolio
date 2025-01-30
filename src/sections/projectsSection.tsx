@@ -9,9 +9,9 @@ function ProjectsSection() {
   const { t } = useTranslation();
 
   return (
-    <div className="relative flex flex-col items-center justify-center py-[60px] bg-[#181818] text-[#ffffff]">
+    <div className="relative flex flex-col items-center justify-center py-[70px] bg-[#181818] text-[#ffffff]">
       <motion.h1
-        className="text-xl md:text-3xl font-semibold mb-6 md:mb-10"
+        className="text-xl md:text-2xl font-semibold mb-6 md:mb-10"
         initial={{ opacity: 0, y: -100 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}

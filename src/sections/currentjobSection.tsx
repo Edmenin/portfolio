@@ -6,7 +6,7 @@ function CurrentJobSection() {
   const { t } = useTranslation();
 
   return (
-    <div className="relative flex flex-col lg:flex-row items-center justify-between py-10 px-8 lg:px-1 bg-[#181818] text-[#ffffff] lg:pr-[150px]">
+    <div className="relative flex flex-col lg:flex-row items-center justify-between py-10 md:py-[70px] px-8 bg-[#181818] text-[#ffffff] lg:pr-[150px]">
       <motion.div
         className="flex flex-col items-center lg:items-start w-full lg:w-1/2 lg:order-2"
         initial={{ opacity: 0, x: 100 }}
@@ -14,7 +14,7 @@ function CurrentJobSection() {
         transition={{ duration: 0.8 }}
         viewport={{ once: true, amount: 0.5 }}
       >
-        <h1 className="text-xl md:text-3xl lg:text-3xl font-semibold mb-6">
+        <h1 className="text-xl md:text-2xl font-semibold mb-6">
           {t("currentJobTitle")}
         </h1>
         <p className="text-base md:text-lg lg:text-xl font-normal text-justify xl:pr-[60px]">

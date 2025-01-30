@@ -36,8 +36,6 @@ const StyledWrapper = styled.div`
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
 
   .card__content {
@@ -61,7 +59,7 @@ const StyledWrapper = styled.div`
 
   .card__title {
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
     color: #fff;
     font-weight: 600;
   }
@@ -73,5 +71,4 @@ const StyledWrapper = styled.div`
     line-height: 1.3;
   }
 `;
-
 export default Card2;
