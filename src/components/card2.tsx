@@ -11,7 +11,7 @@ const Card2 = () => {
         </div>
         <img
           className="card__image"
-          src="./src/assets/mundomel.svg"
+          src="/assets/mundomel.svg"
           alt="Mundo Mel"
         />
       </div>
@@ -29,7 +29,7 @@ const StyledWrapper = styled.div`
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: all 0.6s ease-in-out;
   }
 
   .card__content {
@@ -41,9 +41,9 @@ const StyledWrapper = styled.div`
     height: 100%;
     padding: 20px;
     box-sizing: border-box;
-    background: linear-gradient(120deg, #6a0dad, #4c248b);
+    background: #4c248b;
     opacity: 1;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: all 0.4s ease-in-out;
   }
 
   .card__image {
@@ -55,7 +55,7 @@ const StyledWrapper = styled.div`
     height: 100%;
     object-fit: cover;
     opacity: 0;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+    transition: all 0.8s ease-in-out;
   }
 
   .card:hover .card__content {

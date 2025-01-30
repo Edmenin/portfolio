@@ -1,8 +1,9 @@
 import { useTranslation } from "react-i18next";
-import image1 from "./assets/image1.svg";
-import brazilbutton from "./assets/brazilbutton.svg";
-import usabutton from "./assets/usabutton.svg";
-import Tooltip from "./components/tooltip";
+import image1 from "/assets/image1.svg";
+import brazilbutton from "/assets/brazilbutton.svg";
+import usabutton from "/assets/usabutton.svg";
+import Tooltip from "../components/tooltip";
+import Typewriter from "typewriter-effect";
 
 function WelcomeSection() {
   const { t, i18n } = useTranslation();
@@ -33,17 +34,24 @@ function WelcomeSection() {
         <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold mb-6">
           {t("greeting")}
         </h1>
-        <p className="text-xl md:text-2xl lg:text-2xl font-semibold mb-12 lg:mb-[180px]">
-          {t("introduction")}
-        </p>
-       <Tooltip />
+        <div className="text-xl md:text-2xl lg:text-2xl font-semibold mb-12 lg:mb-[180px]">
+          <Typewriter
+            options={{
+              strings: [t("introduction")],
+              autoStart: true,
+              loop: true,
+              delay: 75,
+            }}
+          />
+        </div>
+        <Tooltip />
       </div>
       <div className="mt-12 lg:mt-0 mb-[70px] md:mb-[2px]">
         <div className="relative z-10">
           <img
             src={image1}
             alt="image1"
-            className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px]"
+            className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px] animate-sway"
           />
         </div>
       </div>

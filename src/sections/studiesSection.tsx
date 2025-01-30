@@ -1,4 +1,4 @@
-import image3 from "./assets/image3.svg";
+import image3 from "/assets/image3.svg";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
@@ -31,7 +31,7 @@ function StudiesSection() {
         <img
           src={image3}
           alt="Studies Image"
-          className="w-[250px] h-[250px] md:w-[300px] md:h-[300px] "
+          className="w-[250px] h-[250px] md:w-[300px] md:h-[300px] animate-sway"
         />
       </motion.div>
       <div className="absolute bottom-0 left-0 w-full h-[3px] bg-[#4c248b]"></div>

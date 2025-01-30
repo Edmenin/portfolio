@@ -1,11 +1,11 @@
 import React from "react";
-import WelcomeSection from "./welcomeSection";
-import AboutMeSection from "./aboutmeSection";
-import LanguagesSection from "./languagesSection";
-import CurrentJobSection from "./currentjobSection";
-import StudiesSection from "./studiesSection";
-import ProjectsSection from "./projectsSection";
-import FooterSection from "./footerSection";
+import WelcomeSection from "./sections/welcomeSection";
+import AboutMeSection from "./sections/aboutmeSection";
+import LanguagesSection from "./sections/languagesSection";
+import CurrentJobSection from "./sections/currentjobSection";
+import StudiesSection from "./sections/studiesSection";
+import ProjectsSection from "./sections/projectsSection";
+import FooterSection from "./sections/footerSection";
 
 function Page() {
   return (

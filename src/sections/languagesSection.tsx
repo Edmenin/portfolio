@@ -1,11 +1,11 @@
-import JS from "./assets/jslogo.svg";
-import TS from "./assets/tslogo.svg";
-import CSS from "./assets/csslogo.svg";
-import HTML from "./assets/htmllogo.svg";
-import GIT from "./assets/gitlogo.svg";
-import REACT from "./assets/reactlogo.svg";
-import FIGMA from "./assets/figmalogo.svg";
-import TAILWIND from "./assets/tailwindlogo.svg";
+import JS from "/assets/jslogo.svg";
+import TS from "/assets/tslogo.svg";
+import CSS from "/assets/csslogo.svg";
+import HTML from "/assets/htmllogo.svg";
+import GIT from "/assets/gitlogo.svg";
+import REACT from "/assets/reactlogo.svg";
+import FIGMA from "/assets/figmalogo.svg";
+import TAILWIND from "/assets/tailwindlogo.svg";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 

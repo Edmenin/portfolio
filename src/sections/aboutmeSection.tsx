@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import Eduardo from "./assets/eduardomenin.svg";
+import Eduardo from "/assets/eduardomenin.svg";
 
 function AboutmeSection() {
   const { t } = useTranslation();
@@ -31,7 +31,7 @@ function AboutmeSection() {
         <img
           src={Eduardo}
           alt="Eduardo Menin"
-          className="w-[260px] h-[250px] md:w-[310px] md:h-[300px] border-[3px] rounded-md border-[#4c248b]"
+          className="animate-sway w-[260px] h-[250px] md:w-[310px] md:h-[300px] border-[3px] rounded-md border-[#4c248b]"
         />
       </motion.div>
       <div className="absolute bottom-0 left-0 w-full h-[2px] lg:h-[3px] bg-[#4c248b]"></div>

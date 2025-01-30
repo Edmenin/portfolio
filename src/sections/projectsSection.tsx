@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import Card1 from "./components/card1";
-import Card2 from "./components/card2";
-import Card3 from "./components/card3";
-import Card4 from "./components/card4";
+import Card1 from "../components/card1";
+import Card2 from "../components/card2";
+import Card3 from "../components/card3";
+import Card4 from "../components/card4";
 
 function ProjectsSection() {
   const { t } = useTranslation();
