@@ -11,7 +11,7 @@ const Card2 = () => {
         </div>
         <img
           className="card__image"
-          src="/assets/mundomel.svg"
+          src="./assets/mundomel.svg"
           alt="Mundo Mel"
         />
       </div>

@@ -11,7 +11,7 @@ const Card1 = () => {
         </div>
         <img
           className="card__image"
-          src="/assets/cdc.svg"
+          src="./assets/cdc.svg"
           alt="Centro de Cidadania"
         />
       </div>
