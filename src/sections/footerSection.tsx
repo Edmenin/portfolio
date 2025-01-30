@@ -9,7 +9,7 @@ function ProjectsSection() {
       <div className="flex justify-center">
         <Tooltip />
       </div>
-      <h1 className="text-xs md:text-sm lg:text-base font-semibold text-center px-4 text-[#181818]">
+      <h1 className="text-xs md:text-sm lg:text-base font-normal text-center px-4 text-[#ffffff]">
         {t("footerRights")}
       </h1>
       <div className="absolute bottom-0 left-0 w-full h-[2px] md:h-[3px] bg-[#181818]"></div>

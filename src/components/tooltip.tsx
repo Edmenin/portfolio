@@ -122,7 +122,7 @@ const StyledWrapper = styled.div`
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    color: #181818;
+    color: #ffffff;
     background-color: ;
     transition: all 0.3s ease-in-out;
   }

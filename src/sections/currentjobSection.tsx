@@ -6,7 +6,7 @@ function CurrentJobSection() {
   const { t } = useTranslation();
 
   return (
-    <div className="relative flex flex-col lg:flex-row items-center justify-between py-10 md:py-[70px] px-8 bg-[#181818] text-[#ffffff] lg:pr-[150px]">
+    <div className="font-raleway relative flex flex-col lg:flex-row items-center justify-between py-10 md:py-[70px] px-8 bg-[#181818] text-[#ffffff] lg:pr-[150px]">
       <motion.div
         className="flex flex-col items-center lg:items-start w-full lg:w-1/2 lg:order-2"
         initial={{ opacity: 0, x: 100 }}

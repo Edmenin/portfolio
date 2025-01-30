@@ -13,7 +13,7 @@ function WelcomeSection() {
   };
 
   return (
-    <div className="relative flex flex-col lg:flex-row items-center justify-between h-screen bg-[#4c248b] text-[#181818] px-6 lg:px-20 xl:px-[200px]">
+    <div className="font-font-raleway overflow-hidden relative flex flex-col lg:flex-row items-center justify-between h-screen bg-[#4c248b] text-[#ffffff] px-6 lg:px-20 xl:px-[200px]">
       <div className="absolute top-4 right-4 flex space-x-4 z-20">
         <button onClick={() => changeLanguage("pt")} className="">
           <img
@@ -30,11 +30,12 @@ function WelcomeSection() {
           />
         </button>
       </div>
-      <div className="flex flex-col items-center lg:items-start text-center lg:text-left mt-[30px] md:mt-[50px]">
-        <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold mb-6">
+
+      <div className="flex flex-col items-center lg:items-start mt-[150px] md:mt-[50px]">
+        <div className="text-4xl md:text-6xl lg:text-8xl font-semibold mb-6">
           {t("greeting")}
-        </h1>
-        <div className="text-xl md:text-2xl lg:text-2xl font-semibold mb-12 lg:mb-[180px]">
+        </div>
+        <div className="text-xl md:text-xl  mb-12 lg:mb-[200px] lg:ml-[7px]">
           <Typewriter
             options={{
               strings: [t("introduction")],
@@ -46,26 +47,18 @@ function WelcomeSection() {
         </div>
         <Tooltip />
       </div>
-      <div className="mt-12 lg:mt-0 mb-[70px] md:mb-[2px]">
-        <div className="relative z-10">
-          <img
-            src={image1}
-            alt="image1"
-            className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px] animate-sway"
-          />
-        </div>
-      </div>
-      <div className="absolute bottom-[-90px] right-[-200px] md:right-[0px] lg:right-[-680px] lg:bottom-[-20px] xl:right-[-600px] 2xl:right-[-440px]">
-        <div className=" w-[1200px] h-[350px] sm:h-[500px] md:h-[600px] lg:w-[1300px] lg:h-[1080px] bg-[#181818] lg:rotate-[-60deg]"></div>
+      <img
+        src={image1}
+        alt="image1"
+        className="relative z-10 mb-[100px] lg:mb-[50px] lg:ml-[180px] w-[300px] h-[300px] md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px] animate-sway"
+      />
+      <div className="absolute bottom-[-540px] right-0 md:right-[0px] lg:right-[-680px] lg:bottom-0 xl:right-[-600px] 2xl:right-[-440px]">
+        <div className="w-[1200px] h-[400px] sm:h-[500px] md:h-[600px] lg:w-[1300px] lg:h-[1080px] bg-[#181818] lg:rotate-[-60deg] min-h-[100vh]"></div>
       </div>
       <div className="absolute bottom-[-310px] right-[-200px] lg:bottom-[-582px] lg:right-[-500px]">
-        <div className=" w-[600px] h-[600px] lg:w-[1190px] lg:h-[1100px] bg-[#4c248b] opacity-[20%] rotate-[-25deg]"></div>
-      </div>
-      <div className="absolute bottom-0 right-0">
-        <div className="absolute bottom-0 left-0 w-full h-[2px] lg:h-[3px] bg-[#4c248b]"></div>
+        <div className="lg:w-[1190px] lg:h-[1100px] bg-[#4c248b] opacity-0 lg:opacity-[30%] lg:rotate-[-25deg]"></div>
       </div>
       <div className="absolute bottom-0 left-0 w-full h-[2px] lg:h-[3px] bg-[#4c248b]"></div>
-      <div className="absolute bottom-10 flex justify-center w-full"></div>
     </div>
   );
 }

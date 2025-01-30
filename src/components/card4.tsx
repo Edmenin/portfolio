@@ -69,6 +69,7 @@ const StyledWrapper = styled.div`
     font-size: 14px;
     color: #fff;
     line-height: 1.3;
+    text-align: justify;
   }
 `;
 

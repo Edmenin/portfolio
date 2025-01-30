@@ -13,7 +13,7 @@ function LanguagensSection() {
   const { t } = useTranslation();
 
   return (
-    <div className="relative flex flex-col items-center justify-center py-10 md:py-[70px] bg-[#181818] text-[#ffffff] space-y-8">
+    <div className="font-raleway relative flex flex-col items-center justify-center py-10 md:py-[70px] bg-[#181818] text-[#ffffff] space-y-8">
       <motion.div
         className="flex flex-col items-center"
         initial={{ opacity: 0, y: -50 }}
