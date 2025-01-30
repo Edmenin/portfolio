@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import Tooltip from "../components/tooltip";
+import Download from "../components/download";
 
 function ProjectsSection() {
   const { t } = useTranslation();
@@ -13,6 +14,8 @@ function ProjectsSection() {
         {t("footerRights")}
       </h1>
       <div className="absolute bottom-0 left-0 w-full h-[2px] md:h-[3px] bg-[#181818]"></div>
+
+      <Download />
     </div>
   );
 }

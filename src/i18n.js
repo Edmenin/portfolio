@@ -16,7 +16,7 @@ const resources = {
         "I currently work as a junior full-stack developer at CashLocal, having recently transitioned from front-end development. In this role, I am continuously learning and improving my skills in new technologies, ranging from back-end development to database management.",
       studiesTitle: "Studies 📚",
       studiesDescription:
-        "At the age of 12, I began my journey in the technology field with my first computer course, starting with the basic module. After completing it, I moved on to the applied module. At 17, I attended a course on languages and technologies for front-end development offered by B7 Web. This course solidified my passion for programming and design. Currently, at 19, I am pursuing my first degree in Systems Analysis and Development at Unidep. For the future, I plan to expand my academic education with a second degree.",
+        "At the age of 12, I started my journey in technology with a basic computer course, followed by the applied module. At 17, I participated in a front-end course offered by B7 Web, which consolidated my passion for programming and design. Currently, at 19 years old, I am studying Systems Analysis and Development at Unidep and I plan, in the future, to expand my training with a second degree.",
       projectsTitle: "My Projects 🚧",
       projectsDescription: "Under construction...",
       footerRights: "© All rights reserved to Eduardo Menin - 2025.",
@@ -47,7 +47,7 @@ const resources = {
         "Atualmente, atuo como desenvolvedor full-stack júnior na CashLocal, tendo migrado recentemente do front-end. Nesse contexto, estou constantemente aprendendo e me aperfeiçoando em novas tecnologias, abrangendo desde o back-end até a gestão de bancos de dados.",
       studiesTitle: "Estudos 📚",
       studiesDescription:
-        "Aos 12 anos, iniciei minha jornada na área de tecnologia com meu primeiro curso de informática, começando pelo módulo básico. Após a conclusão, avancei para o módulo aplicado. Aos 17 anos, participei de um curso de linguagens e tecnologias para desenvolvimento front-end, oferecido pela B7 Web. Esse curso consolidou minha paixão pela programação e pelo design. Atualmente, com 19 anos, estou cursando minha primeira graduação em Análise e Desenvolvimento de Sistemas, pela Unidep. Para o futuro, planejo ampliar minha formação acadêmica com uma segunda graduação.",
+        "Aos 12 anos, iniciei minha jornada na tecnologia com um curso básico de informática, seguido pelo módulo aplicado. Aos 17, participei de um curso de front-end oferecido pela B7 Web, que consolidou minha paixão por programação e design. Atualmente, com 19 anos, estou cursando Análise e Desenvolvimento de Sistemas na Unidep e planejo, no futuro, ampliar minha formação com uma segunda graduação.",
       projectsTitle: "Meus projetos 🚧",
       projectsDescription: "em construção...",
       footerRights: "© Todos os direitos reservados à Eduardo Menin - 2025.",

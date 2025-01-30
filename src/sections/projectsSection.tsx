@@ -4,6 +4,7 @@ import Card1 from "../components/card1";
 import Card2 from "../components/card2";
 import Card3 from "../components/card3";
 import Card4 from "../components/card4";
+import Button from "../components/backtop";
 
 function ProjectsSection() {
   const { t } = useTranslation();
@@ -26,11 +27,11 @@ function ProjectsSection() {
       </motion.h1>
 
       <motion.div
-        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4"
+        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 mb-[60px]"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.3 }}
-        transition={{ staggerChildren: 0.2 }}
+        transition={{ staggerChildren: 0.3 }}
       >
         <motion.div variants={cardVariants} transition={{ duration: 0.8 }}>
           <Card1 />
@@ -45,6 +46,8 @@ function ProjectsSection() {
           <Card4 />
         </motion.div>
       </motion.div>
+
+      <Button />
 
       <div className="absolute bottom-0 left-0 w-full h-[3px] bg-[#4c248b]"></div>
       <div className="absolute top-[-182px] md:top-[-171px] right-[-170px] w-[210px] md:w-[250px] h-[262px] rotate-[34deg] bg-[#4c248b]"></div>
