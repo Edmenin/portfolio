@@ -25,8 +25,8 @@ const resources = {
         "The Citizenship Center is a project developed with the aim of offer support to residents of the city of Pato Branco, Paraná, inpartnership with social assistance. My role in the project involved the development of your official website.",
       card2title: "Honey World",
       card2description:
-        "Mundo Mel was an event held with the participation of beekeepers and meliponists in the city of Pato Branco, Paraná. My contribution to the project included website development event official.",
-      card3title: "Separate",
+        "Honey World was an event held with the participation of beekeepers and meliponists in the city of Pato Branco, Paraná. My contribution to the project included website development event official.",
+      card3title: "Separa",
       card3description:
         "Separa appears as a solution to hunger and the growing issue of food waste. By correctly separating your waste, the user receives cashback. My contribution to project was the development of the system interface.",
       card4title: "Finances App",
