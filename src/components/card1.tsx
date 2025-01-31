@@ -1,10 +1,20 @@
+import { useState } from "react";
 import styled from "styled-components";
 import { t } from "i18next";
 
 const Card1 = () => {
+  const [isFlipped, setIsFlipped] = useState(false);
+
+  const handleClick = () => {
+    setIsFlipped(!isFlipped);
+  };
+
   return (
     <StyledWrapper>
-      <div className="card">
+      <div
+        className={`card ${isFlipped ? "flipped" : ""}`}
+        onClick={handleClick}
+      >
         <div className="card__content">
           <p className="card__title">{t("card1title")}</p>
           <p className="card__description">{t("card1description")}</p>
@@ -22,6 +32,7 @@ const StyledWrapper = styled.div`
     height: 200px;
     border-radius: 10px;
     perspective: 1000px;
+    cursor: pointer;
   }
 
   .card__content,
@@ -49,11 +60,11 @@ const StyledWrapper = styled.div`
     border-radius: 10px;
   }
 
-  .card:hover .card__content {
+  .card.flipped .card__content {
     transform: rotateY(180deg);
   }
 
-  .card:hover .card__back {
+  .card.flipped .card__back {
     transform: rotateY(0deg);
   }
 
