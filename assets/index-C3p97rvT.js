@@ -143,6 +143,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     border-radius: 10px;
     perspective: 1000px;
     cursor: pointer;
+    transition: transform 200ms ease-in-out;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
   }
 
   .card__content,
@@ -200,6 +205,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     border-radius: 10px;
     perspective: 1000px;
     cursor: pointer;
+    transition: transform 200ms ease-in-out;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
   }
 
   .card__content,
@@ -257,6 +267,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     border-radius: 10px;
     perspective: 1000px;
     cursor: pointer;
+    transition: transform 200ms ease-in-out;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
   }
 
   .card__content,
@@ -314,6 +329,11 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
     border-radius: 10px;
     perspective: 1000px;
     cursor: pointer;
+    transition: transform 200ms ease-in-out;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
   }
 
   .card__content,
