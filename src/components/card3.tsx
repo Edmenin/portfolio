@@ -33,6 +33,11 @@ const StyledWrapper = styled.div`
     border-radius: 10px;
     perspective: 1000px;
     cursor: pointer;
+    transition: transform 200ms ease-in-out;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
   }
 
   .card__content,
