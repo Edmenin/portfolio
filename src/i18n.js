@@ -13,7 +13,7 @@ const resources = {
       technologiesTitle: "Languages and Technologies 🌐",
       currentJobTitle: "Current Job 💻",
       currentJobDescription:
-        "I currently work as a junior full-stack developer at CashLocal, having recently transitioned from front-end development. In this role, I am continuously learning and improving my skills in new technologies, ranging from back-end development to database management.",
+        "I currently work as a full-stack developer at CashLocal, having recently transitioned from front-end development. In this role, I am continuously learning and improving my skills in new technologies, ranging from back-end development to database management.",
       studiesTitle: "Studies 📚",
       studiesDescription:
         "At the age of 12, I started my journey in technology with a basic computer course, followed by the applied module. At 17, I participated in a front-end course offered by B7 Web, which consolidated my passion for programming and design. Currently, at 19 years old, I am studying Systems Analysis and Development at Unidep and I plan, in the future, to expand my training with a second degree.",
@@ -32,6 +32,14 @@ const resources = {
       card4title: "Finances App",
       card4description:
         "The Finances App is a website developed by me, completely no-code. It is a complete system, which includes interface, backend and database, without the need to write code, for this, I used the FlutterFlow platform.",
+      button: "Back to top",
+      download: "Download my CV here",
+      aboutMe: "About me",
+      languagesAndTechnologies: "Languages and Technologies",
+      currentJob: "Current Job",
+      studies: "Studies",
+      myProjects: "My projects",
+      resume: "Curriculum",
     },
   },
   pt: {
@@ -44,7 +52,7 @@ const resources = {
       technologiesTitle: "Linguagens e tecnologias 🌐",
       currentJobTitle: "Atual emprego 💻",
       currentJobDescription:
-        "Atualmente, atuo como desenvolvedor full-stack júnior na CashLocal, tendo migrado recentemente do front-end. Nesse contexto, estou constantemente aprendendo e me aperfeiçoando em novas tecnologias, abrangendo desde o back-end até a gestão de bancos de dados.",
+        "Atualmente, atuo como desenvolvedor full-stack na CashLocal, tendo migrado recentemente do front-end. Nesse contexto, estou constantemente aprendendo e me aperfeiçoando em novas tecnologias, abrangendo desde o back-end até a gestão de bancos de dados.",
       studiesTitle: "Estudos 📚",
       studiesDescription:
         "Aos 12 anos, iniciei minha jornada na tecnologia com um curso básico de informática, seguido pelo módulo aplicado. Aos 17, participei de um curso de front-end oferecido pela B7 Web, que consolidou minha paixão por programação e design. Atualmente, com 19 anos, estou cursando Análise e Desenvolvimento de Sistemas na Unidep e planejo, no futuro, ampliar minha formação com uma segunda graduação.",
@@ -63,6 +71,14 @@ const resources = {
       card4title: "App de finanças",
       card4description:
         "O App de finanças é um site desenvolvido por mim, totalmente no-code. Trata-se de um sistema completo, que inclui interface, backend e banco de dados, sem a necessidade de escrever códigos, para isso, utilizei a plataforma FlutterFlow.",
+      button: "Voltar ao topo",
+      download: "Baixe aqui meu currículo",
+      aboutMe: "Sobre mim",
+      languagesAndTechnologies: "Linguagens e Tecnologias",
+      currentJob: "Atual emprego",
+      studies: "Estudos",
+      myProjects: "Meus projetos",
+      resume: "Currículo",
     },
   },
 };

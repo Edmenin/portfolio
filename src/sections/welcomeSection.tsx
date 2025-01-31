@@ -53,7 +53,7 @@ function WelcomeSection() {
       <img
         src={image1}
         alt="image1"
-        className="relative z-10 mb-[100px] lg:mb-[50px] lg:ml-[160px] w-[300px] h-[300px] md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px] animate-sway"
+        className="relative z-10 mb-[100px] lg:mb-[50px] lg:ml-[160px] w-[300px] h-[300px] md:w-[400px] md:h-[400px] lg:w-[500px] lg:h-[500px] animate-sway-rotation"
       />
 
       <div className="absolute bottom-[-540px] right-0 md:right-[0px] lg:right-[-680px] lg:bottom-0 xl:right-[-600px] 2xl:right-[-440px]">

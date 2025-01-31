@@ -3,6 +3,15 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      animation: {
+        "sway-rotation": "sway 5s ease-in-out infinite",
+      },
+      keyframes: {
+        sway: {
+          "0%, 100%": { transform: "rotate(3deg)" },
+          "50%": { transform: "rotate(-3deg)" },
+        },
+      },
       fontFamily: {
         sans: ["Poppins", "sans-serif"],
         lato: ["Lato", "sans-serif"],

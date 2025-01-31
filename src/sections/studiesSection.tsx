@@ -31,7 +31,7 @@ function StudiesSection() {
         <img
           src={image3}
           alt="Studies Image"
-          className="w-[250px] h-[250px] md:w-[300px] md:h-[300px] animate-sway"
+          className="w-[250px] h-[250px] md:w-[300px] md:h-[300px] animate-sway-rotation"
         />
       </motion.div>
       <div className="absolute bottom-0 left-0 w-full h-[3px] bg-[#4c248b]"></div>
