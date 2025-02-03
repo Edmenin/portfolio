@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import image1 from "/assets/image1.svg";
-import brazilbutton from "/assets/brazilbutton.svg";
-import usabutton from "/assets/usabutton.svg";
+import brazilbutton from "/assets/brazilbutton.png";
+import usabutton from "/assets/usabutton.png";
 import Tooltip from "../components/tooltip";
 import Typewriter from "typewriter-effect";
 
@@ -24,7 +24,7 @@ function WelcomeSection() {
           <img
             src={brazilbutton}
             alt="Brazil"
-            className="w-10 h-10 lg:w-12 lg:h-12 hover:scale-110 transition-transform duration-200"
+            className="w-8 h-8 lg:w-10 lg:h-10 transition-transform duration-200"
           />
         </button>
         <button
@@ -36,7 +36,7 @@ function WelcomeSection() {
           <img
             src={usabutton}
             alt="USA"
-            className="w-10 h-10 lg:w-12 lg:h-12 hover:scale-110 transition-transform duration-200"
+            className="w-8 h-8 lg:w-10 lg:h-10  transition-transform duration-200"
           />
         </button>
       </div>
