@@ -60,23 +60,11 @@ function Navbar() {
             to="myProjects"
             smooth={true}
             duration={500}
-            offset={-window.innerHeight / 13}
+            offset={-window.innerHeight / 18}
             className="text-md cursor-pointer relative group"
           >
             <span className="text-[#ffffff] group-hover:text-[#4c248b]">
               {t("myProjects")}
-            </span>
-            <span className="absolute bottom-[-3px] left-0 w-0 h-[2px] bg-[#ffffff] transition-all duration-300 group-hover:w-full group-hover:bg-[#4c248b]"></span>
-          </Link>
-          <Link
-            to="footer"
-            smooth={true}
-            duration={500}
-            offset={-window.innerHeight / 2}
-            className="text-md cursor-pointer relative group"
-          >
-            <span className="text-[#ffffff] group-hover:text-[#4c248b]">
-              {t("resume")}
             </span>
             <span className="absolute bottom-[-3px] left-0 w-0 h-[2px] bg-[#ffffff] transition-all duration-300 group-hover:w-full group-hover:bg-[#4c248b]"></span>
           </Link>

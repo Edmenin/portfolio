@@ -4,24 +4,35 @@ import brazilbutton from "/assets/brazilbutton.svg";
 import usabutton from "/assets/usabutton.svg";
 import Tooltip from "../components/tooltip";
 import Typewriter from "typewriter-effect";
+
 function WelcomeSection() {
   const { t, i18n } = useTranslation();
 
-  const changeLanguage = (lng: string | undefined) => {
+  const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
   };
 
   return (
     <div className="font-font-raleway overflow-hidden relative flex flex-col lg:flex-row items-center justify-between h-screen bg-[#4c248b] text-[#ffffff] px-6 lg:px-20 xl:px-[200px]">
       <div className="absolute top-4 right-4 flex space-x-4 z-20">
-        <button onClick={() => changeLanguage("pt")} className="">
+        <button
+          onClick={() => changeLanguage("pt")}
+          className={`border-[3px] ${
+            i18n.language === "pt" ? "border-purple-500" : "border-transparent"
+          } rounded-full transition-all`}
+        >
           <img
             src={brazilbutton}
             alt="Brazil"
             className="w-10 h-10 lg:w-12 lg:h-12 hover:scale-110 transition-transform duration-200"
           />
         </button>
-        <button onClick={() => changeLanguage("en")} className="">
+        <button
+          onClick={() => changeLanguage("en")}
+          className={`border-[3px] ${
+            i18n.language === "en" ? "border-purple-500" : "border-transparent"
+          } rounded-full transition-all`}
+        >
           <img
             src={usabutton}
             alt="USA"
@@ -33,7 +44,7 @@ function WelcomeSection() {
       <div className="flex flex-col items-center lg:items-start mt-[150px] md:mt-[50px]">
         <div
           className="text-4xl md:text-6xl lg:text-8xl font-semibold mb-6 text-center lg:text-start"
-          style={{ minWidth: "5ch" }} 
+          style={{ minWidth: "5ch" }}
         >
           {t("greeting")}
         </div>
