@@ -5,7 +5,7 @@ import HTML from "/assets/htmllogo.svg";
 import GIT from "/assets/gitlogo.svg";
 import REACT from "/assets/reactlogo.svg";
 import FIGMA from "/assets/figmalogo.svg";
-import TAILWIND from "/assets/tailwindlogo.svg";
+import NODE from "/assets/node.svg";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
@@ -89,10 +89,10 @@ function LanguagensSection() {
             className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] hover:scale-110 transition-transform duration-200"
           />
         </a>
-        <a href="https://tailwindcss.com">
+        <a href="https://nodejs.org/pt">
           <img
-            src={TAILWIND}
-            alt="TailwindCSS Logo"
+            src={NODE}
+            alt="Node.js Logo"
             className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] hover:scale-110 transition-transform duration-200"
           />
         </a>
