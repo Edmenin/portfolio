@@ -6,6 +6,8 @@ import GIT from "/assets/gitlogo.svg";
 import REACT from "/assets/reactlogo.svg";
 import FIGMA from "/assets/figmalogo.svg";
 import NODE from "/assets/node.svg";
+import N8N from "/assets/n8n.jpg";
+import PYTHON from "/assets/python.png";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
@@ -26,7 +28,7 @@ function LanguagensSection() {
         </h1>
       </motion.div>
       <motion.div
-        className="flex flex-wrap justify-center gap-4 md:gap-8"
+        className="grid grid-cols-5 justify-items-center gap-4 md:gap-8"
         initial={{ opacity: 0, scale: 0.8 }}
         whileInView={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8, delay: 0.3 }}
@@ -60,14 +62,6 @@ function LanguagensSection() {
             className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] hover:scale-110 transition-transform duration-200"
           />
         </a>
-      </motion.div>
-      <motion.div
-        className="flex flex-wrap justify-center gap-4 md:gap-8"
-        initial={{ opacity: 0, scale: 0.8 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.8, delay: 0.6 }}
-        viewport={{ once: true, amount: 0.5 }}
-      >
         <a href="https://react.dev">
           <img
             src={REACT}
@@ -94,6 +88,20 @@ function LanguagensSection() {
             src={NODE}
             alt="Node.js Logo"
             className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] hover:scale-110 transition-transform duration-200"
+          />
+        </a>
+        <a href="https://n8n.io" target="_blank" rel="noopener noreferrer">
+          <img
+            src={N8N}
+            alt="n8n Logo"
+            className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] hover:scale-110 transition-transform duration-200 rounded-lg object-contain bg-white"
+          />
+        </a>
+        <a href="https://www.python.org" target="_blank" rel="noopener noreferrer">
+          <img
+            src={PYTHON}
+            alt="Python Logo"
+            className="w-[60px] h-[60px] md:w-[80px] md:h-[80px] hover:scale-110 transition-transform duration-200 object-contain"
           />
         </a>
       </motion.div>
