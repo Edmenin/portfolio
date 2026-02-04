@@ -1,9 +1,11 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import Card1 from "../components/card1";
 import Card2 from "../components/card2";
 import Card3 from "../components/card3";
 import Card4 from "../components/card4";
+import Card5 from "../components/card5";
+import Card6 from "../components/card6";
+import Card7 from "../components/card7";
 import Button from "../components/backtop";
 
 function ProjectsSection() {
@@ -26,16 +28,23 @@ function ProjectsSection() {
         {t("projectsTitle")}
       </motion.h1>
 
+      <motion.p
+        className="text-sm md:text-base text-white/80 mb-6 md:mb-10 -mt-3 text-center px-4"
+        initial={{ opacity: 0, y: -16 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        viewport={{ once: true, amount: 0.5 }}
+      >
+        {t("projectsSubtitle")}
+      </motion.p>
+
       <motion.div
-        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 mb-[60px]"
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-[60px]"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.3 }}
         transition={{ staggerChildren: 0.3 }}
       >
-        <motion.div variants={cardVariants} transition={{ duration: 0.8 }}>
-          <Card1 />
-        </motion.div>
         <motion.div variants={cardVariants} transition={{ duration: 0.8 }}>
           <Card2 />
         </motion.div>
@@ -44,6 +53,15 @@ function ProjectsSection() {
         </motion.div>
         <motion.div variants={cardVariants} transition={{ duration: 0.8 }}>
           <Card4 />
+        </motion.div>
+        <motion.div variants={cardVariants} transition={{ duration: 0.8 }}>
+          <Card5 />
+        </motion.div>
+        <motion.div variants={cardVariants} transition={{ duration: 0.8 }}>
+          <Card6 />
+        </motion.div>
+        <motion.div variants={cardVariants} transition={{ duration: 0.8 }}>
+          <Card7 />
         </motion.div>
       </motion.div>
 

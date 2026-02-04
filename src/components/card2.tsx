@@ -29,11 +29,12 @@ const StyledWrapper = styled.div`
   .card {
     position: relative;
     width: 300px;
-    height: 200px;
+    height: 320px;
     border-radius: 10px;
     perspective: 1000px;
     cursor: pointer;
     transition: transform 200ms ease-in-out;
+    overflow: hidden;
   }
 
   .card:hover {
@@ -57,10 +58,11 @@ const StyledWrapper = styled.div`
   .card__content {
     background: #4c248b;
     transform: rotateY(0deg);
+    overflow: hidden;
   }
 
   .card__back {
-    background: url("./assets/mundomel.svg") center/cover no-repeat;
+    background: #111 url("./assets/mundomel.svg") center/contain no-repeat;
     transform: rotateY(180deg);
     border-radius: 10px;
   }
@@ -86,6 +88,14 @@ const StyledWrapper = styled.div`
     color: #fff;
     line-height: 1.3;
     text-align: justify;
+    flex: 1;
+    overflow: auto;
+  }
+
+  @media (max-width: 640px) {
+    .card {
+      height: 360px;
+    }
   }
 `;
 

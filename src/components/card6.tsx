@@ -2,7 +2,7 @@ import { useState } from "react";
 import styled from "styled-components";
 import { t } from "i18next";
 
-const Card1 = () => {
+const Card6 = () => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleClick = () => {
@@ -16,8 +16,8 @@ const Card1 = () => {
         onClick={handleClick}
       >
         <div className="card__content">
-          <p className="card__title">{t("card1title")}</p>
-          <p className="card__description">{t("card1description")}</p>
+          <p className="card__title">{t("card6title")}</p>
+          <p className="card__description">{t("card6description")}</p>
         </div>
         <div className="card__back"></div>
       </div>
@@ -62,7 +62,7 @@ const StyledWrapper = styled.div`
   }
 
   .card__back {
-    background: #111 url("./assets/cdc.svg") center/contain no-repeat;
+    background: #111 url("./assets/agro.jpg") center/contain no-repeat;
     transform: rotateY(180deg);
     border-radius: 10px;
   }
@@ -99,4 +99,4 @@ const StyledWrapper = styled.div`
   }
 `;
 
-export default Card1;
+export default Card6;

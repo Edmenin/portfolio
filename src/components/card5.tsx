@@ -2,8 +2,9 @@ import { useState } from "react";
 import styled from "styled-components";
 import { t } from "i18next";
 
-const Card1 = () => {
+const Card5 = () => {
   const [isFlipped, setIsFlipped] = useState(false);
+  const visitUrl = "https://cdlpop.com.br";
 
   const handleClick = () => {
     setIsFlipped(!isFlipped);
@@ -16,8 +17,17 @@ const Card1 = () => {
         onClick={handleClick}
       >
         <div className="card__content">
-          <p className="card__title">{t("card1title")}</p>
-          <p className="card__description">{t("card1description")}</p>
+          <p className="card__title">{t("card5title")}</p>
+          <p className="card__description">{t("card5description")}</p>
+          <a
+            className="card__button"
+            href={visitUrl}
+            target="_blank"
+            rel="noreferrer"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {t("visit")}
+          </a>
         </div>
         <div className="card__back"></div>
       </div>
@@ -38,7 +48,7 @@ const StyledWrapper = styled.div`
   }
 
   .card:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
   }
 
   .card__content,
@@ -62,7 +72,7 @@ const StyledWrapper = styled.div`
   }
 
   .card__back {
-    background: #111 url("./assets/cdc.svg") center/contain no-repeat;
+    background: #111 url("./assets/cdlpop.jpg") center/contain no-repeat;
     transform: rotateY(180deg);
     border-radius: 10px;
   }
@@ -92,6 +102,39 @@ const StyledWrapper = styled.div`
     overflow: auto;
   }
 
+  .card__button {
+    margin-top: 12px;
+    width: 100%;
+    padding: 12px 16px;
+    border-radius: 12px;
+    background: #ffffff;
+    color: #4c248b;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    transition: transform 160ms ease, opacity 160ms ease, background 160ms ease,
+      color 160ms ease, box-shadow 160ms ease;
+  }
+
+  .card__button:hover {
+    background: rgba(255, 255, 255, 0.92);
+    transform: translateY(-1px);
+    opacity: 1;
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.25);
+  }
+
+  .card__button:active {
+    transform: translateY(0px);
+    box-shadow: none;
+  }
+
+  .card__button:focus-visible {
+    outline: 2px solid #ffffff;
+    outline-offset: 2px;
+  }
+
   @media (max-width: 640px) {
     .card {
       height: 360px;
@@ -99,4 +142,4 @@ const StyledWrapper = styled.div`
   }
 `;
 
-export default Card1;
+export default Card5;

@@ -4,10 +4,10 @@ const Button = () => {
   return (
     <StyledWrapper>
       <a
-        href="./assets/curriculo.pdf"
-        download="curriculo-eduardo-menin.pdf" 
+        href="/assets/curriculo.pdf"
+        download="curriculo-eduardo-menin.pdf"
       >
-        <button className="Btn">
+        <button className="Btn" type="button">
           <svg
             className="svgIcon"
             viewBox="0 0 384 512"
